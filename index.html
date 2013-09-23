@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -7,30 +9,32 @@
 
   <title>The Flatiron School</title>
 
-  <link rel='stylesheet' href="css/style.css" type='text/css' media='all' />
-  <!-- <link rel='stylesheet' href="css/style-dark.css" type='text/css' media='all' /> -->
-  <link rel='stylesheet' href="css/media-queries.css" type='text/css' media='all' />
-  <link rel='stylesheet' href="css/flexslider.css" type='text/css' media='screen' />
-  <link rel='stylesheet' href="css/font-awesome.css" type='text/css' media='screen' />
+  <link rel='stylesheet' href="../css/style.css" type='text/css' media='all' />
+  <link rel='stylesheet' href="../css/media-queries.css" type='text/css' media='all' />
+  <link rel='stylesheet' href="../css/flexslider.css" type='text/css' media='screen' />
+  <link rel='stylesheet' href="../css/font-awesome.css" type='text/css' media='screen' />
   <link rel='stylesheet' id='google_merriweather-css'  href='http://fonts.googleapis.com/css?family=Merriweather:400,700&ver=3.5' type='text/css' media='all' />
 
+  <script type='text/javascript' src="../js/jquery.js"></script>
+  <script type='text/javascript' src="../js/chirp.min.js"></script>
+  <script type='text/javascript' src="../js/smooth-scroll.js"></script>
+
   <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
-  <script type='text/javascript' src="js/jquery.js"></script>
-  <style type="text/css">a{color:#60BDDB}</style>
 </head>
-<body class="home page">
+
+<body id="scroll-header" class="home page students">
+
+  <!-- Begin Main Wrapper -->
   <div class="main-wrapper">
+    <!-- Begin Header -->
     <div class="header-wrapper">
       <div class="header">
         <div class="header-left">
-          <a href="http://flatironschool.com/" title="The Flatiron School">
-            <h1 class="logo-text">
-                <object id="bigify" data="img/flatiron-logo-high-res.svg" type="image/svg+xml" class="logo">
-              </object>
-              <object id="minify" data="img/flatiron-horz-logo-high-res.svg" type="image/svg+xml" class="logo">
-              </object>
-            </h1>
-          </a>
+          <h1 class="logo-text">
+            <a href="/" title="The Flatiron School">
+              <img src="../img/the-flatiron-school-logo-sm-black.png" class="logo">
+            </a>
+          </h1>
         </div>
         <div class="header-right">
           <div class="menu-header-container">
@@ -39,45 +43,55 @@
                 <a href="http://flatironschool.com/index.html">Home</a>
               </li>
               <li>
-              <span>Programs</span>
+                <a href="program.html">The Program</a>
                 <ul class="sub-menu">
-                  <li><a href="http://flatironschool.com/rubycurriculum.html">Web</a></li>
-                  <li><a href="http://flatironschool.com/iOScurriculum.html">iOS</a></li>
-<li><a href="http://info.flatironschool.com/highschool" target="_blank">High School</a></li>
-<li><a href="http://flatironschool.com/nycworkforce1/" target="_blank">Fellowship</a></li>
+                  <li><a href="http://flatironschool.com/program.html">Basics</a></li>
+                  <li><a href="http://flatironschool.com/curriculum.html">Curriculum</a></li>
+                  <li><a href="http://flatironschool.com/faculty.html">Faculty</a></li>
+                  <li><a href="http://flatironschool.com/speakers.html">Guest Speakers</a></li>
+                  <li><a href="http://flatironschool.com/faq.html">FAQ</a></li>
+                  <li><a href="http://prework.flatironschool.com">Our Prework</a></li>
                 </ul>
               </li>
               <li>
-                <span>The School</span>
+                <a href="#">The School</a>
 
                 <ul class="sub-menu">
-                  <li><a href="http://flatironschool.com/faculty.html">Faculty</a></li>
-                  <li><a href="http://flatironschool.com/faq.html">FAQ</a></li>
-                  <li><a href="http://flatironschool.com/speakers.html">Guest Speakers</a></li>
-                  <li><a href="http://flatironschool.com/sponsors.html">Sponsors</a></li>
+                  <li><a href="http://flatironschool.com/events.html">Events</a></li>
+                  <li><a href="http://flatironschool.com/contact.html">Contact</a></li>
+                  <li><a href="http://students.flatironschool.com/">Students</a></li>
                 </ul>
+
               </li>
-              <li><span><font color="#26c4ff">Apply</font></span>
-
-                <ul class="sub-menu">
-                  <li><a target="_blank" href="http://info.flatironschool.com/summer-2013-application">Web</a></li>
-                  <li><a href="http://info.flatironschool.com/apply-for-flatiron-ios" target="_blank">iOS</a></li>
-                  <li><a href="http://go.flatironschool.com/nyc-web-development-fellowship-application" target="_blank">Fellowship</a></li>
-                </ul>
+              <li><a href="http://info.flatironschool.com/summer-2013-application"><font color="#26c4ff">Apply</font></a>
               </li>
               <li>
                 <a href="http://flatironschool.com/employers.html">Employers</a>
               </li>
               <li>
-                <a target="_blank" href="http://blog.flatironschool.com/">Blog</a>
+                <a href="http://blog.flatironschool.com/">Blog</a>
               </li>
-
-              <li><a href="http://flatironschool.com/contact.html">Contact</a></li>
+              <li><a href="http://highschool.flatironschool.com/" target="_blank">High School</a></li>
             </ul>
           </div>
           <div class="clear"></div>
         </div>
         <div class="clear"></div>
+      </div>
+
+      <div class="link-subs">
+        <span>
+          <img src="../img/student-icons/swiss-army-knife.png" style="width: 16px;" /> Alisa Chang</span>
+
+        <ul>
+          <li><a href="#scroll-about">About</a></li>
+          <li>|</li>
+          <li><a href="#scroll-coder-cred">Coder Cred</a></li>
+          <li>|</li>
+          <li><a href="#scroll-recently">Favorites</a></li>
+          <li>|</li>
+          <!-- <li><a href="#scroll-favorites">Favorites</a></li> -->
+        </ul>
       </div>
     </div>
     <!-- End Header -->
@@ -85,743 +99,265 @@
     <!-- Begin Content -->
     <div class="container">
 
+      <!-- Begin Splash Image -->
+      <div class="top-page-title">
+        <div>
+          <img src="../img/Alisa_pic1.png" class="student_pic">
+        </div>
+      </div>
+      <! -- End Splash Image -->
+
       <!-- Begin Title Content -->
       <div class="page-title">
-        <h2>Every Story Has Heroes</h2>
-        <h3>We're 41 people learning to love code.</h3>
-      </div>
-      <!-- End Title Content -->
-
-      <!-- Begin Student Index -->
-      <div id="random-full-width-content" class="this-div-is-just-a-helpful-container">
-        <div class="section section-services student-index">
-          <div class="section-title">
-            <span>Flatiron School Class 003</span>
-          </div>
+        <h4 class="ib_main_header">Alisa Chang</h4>
+        <div class="social-icons">
+          <a href="https://twitter.com/laptitenyc"><i class="icon-twitter ib-social-icons"></i></a>
+          <a href="http://www.linkedin.com/in/alisachang/"><i class="icon-linkedin-sign ib-social-icons"></i></a>
+          <a href="https://github.com/laptite"><i class="icon-github ib-social-icons"></i></a>
+          <a href="#"><i class="icon-rss ib-social-icons"></i></a>
         </div>
 
-
-        <div class="section section-blog">
-          <div class="home-blog clearfix">
-            <ul>
-
-              <!-- Begin 3 Student Row -->
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
+        <div class="section section-testimonials-curriculum quote-div">
+          <div id="testimonial-slider" class="flexslider">
+            <ul class="testimonials slides">
+              <li id="text-7" class="widget_text" style="list-style: none; display: list-item;">
+                <div class="textwidget">
+                  <h3>"Only two things are infinite, the universe and human stupidity, and I'm not sure about the former" - Albert Einstein</h3>
                 </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">David Bella</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
               </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Ivan  Brennan</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Matt  Campbell</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <!-- End 3 Student Row -->
-
-              <!-- Begin 3 Student Row -->
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Vinney  Cavallo</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Charlotte Chang</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Daniel  Chang</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <!-- End 3 Student Row -->
-
-              <!-- Begin 3 Student Row -->
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Alex  Chiu</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Greg  Eng</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Raymond Gan</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <!-- End 3 Student Row -->
-
-              <!-- Begin 3 Student Row -->
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Sonja Hall</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Logan Hasson</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Amanda  Himmelstoss</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <!-- End 3 Student Row -->
-
-              <!-- Begin 3 Student Row -->
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Rosanne Hoyem</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Christopher Lee</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Iris  Lee</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <!-- End 3 Student Row -->
-
-              <!-- Begin 3 Student Row -->
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Margaret  Lee</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Scott Luptowski</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Bana  Malik</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <!-- End 3 Student Row -->
-
-              <!-- Begin 3 Student Row -->
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Brendan Manley</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Trevor  McKendrick</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Ian Miller</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <!-- End 3 Student Row -->
-
-              <!-- Begin 3 Student Row -->
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Manuel  Neuhauser</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Joe O'Conor</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Stephanie Oh</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <!-- End 3 Student Row -->
-
-              <!-- Begin 3 Student Row -->
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Samuel  Owens</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Tiffany Peon</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Michael Polycarpou</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <!-- End 3 Student Row -->
-
-              <!-- Begin 3 Student Row -->
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Anders  Ramsay</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">John  Richardson</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Jeanne  Roniger</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <!-- End 3 Student Row -->
-
-              <!-- Begin 3 Student Row -->
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Joshua  Scaglione</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Kyle  Shike</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Mike  Spangler</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-
-              <!-- End 3 Student Row -->
-
-              <!-- Begin 3 Student Row -->
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Thomas  Surgent</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">James Tong</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Edina Vath</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <!-- End 3 Student Row -->
-
-              <!-- Begin 3 Student Row -->
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Theo  Vora</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Emily Xie</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Sam Yang</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <!-- End 3 Student Row -->
-              <!-- Begin 3 Student Row -->
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Saron Yitbarek</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <li class="home-blog-post">
-                <div class="blog-thumb">
-                  <img width="360" height="140" src="http://placekitten.com/360/140" class="attachment-blog-thumb wp-post-image" alt="">
-                </div>
-
-                <div class="blog-title">
-                  <div class="big-comment"><h3><a href="#">Shangxuan Zhang</a></h3></div>
-                  <p class="home-blog-post-meta">Hysterical Tag Line</p>
-                </div>
-                <div class="clear"></div>
-
-                <div class="excerpt">
-                  <p>Really interesting description no longer than 200 characters that gives people a quick idea of who you are. Something around this length should suffice, you've got plenty of room on your profile page.</p>
-                </div>
-                <div class="clear"></div>
-              </li>
-              <!-- End 2 Student Row -->
-
             </ul>
           </div>
         </div>
       </div>
-      <!-- End Student Index -->
+      <!-- End Title Content -->
 
+      <!-- Some Content on Full Width -->
+      <div id="random-full-width-content" class="this-div-is-just-a-helpful-container">
+        <div id="scroll-about" class="section section-services">
+          <div class="section-title">
+            <span class="actual-title">About</span>
+            <div class="go-to-top"><a href="#scroll-header">Go To Top</a></div>
+          </div>
+
+          <div class="services-wrap" id="equalize">
+
+            <div id="ok-text-column-2" class="column ok-text-column" style="height: 204px;">
+              <div class="services">
+                <div class="services-title"><h3>Biography</h3></div>
+                <div class="clear"></div>
+                <p>
+                  Having co-launched a <a href="http://googaro.com">startup</a>, I want to be able to effectively communicate needs and manage changes to the site. When I'm not learning how to code, I'm tending my aquaponic greenhouse or cooking up a storm </p>
+
+                </p>
+              </div>
+            </div>
+
+            <div id="ok-text-column-3" class="column ok-text-column" style="height: 204px;">
+              <div class="services">
+                <div class="services-title"><h3>Education</h3></div>
+                <div class="clear"></div>
+                <ul>
+                  <li><a href="https://zicklin.baruch.cuny.edu">Baruch Zicklin School of Business</a><br>MBA Entrepreneurship &amp Finance</li>
+                  <li><a href="http://www.stonybrook.edu">SUNY Stony Brook</a><br>BA Studio Art &amp Art History</li>
+                </ul>
+              </div>
+            </div>
+
+            <div id="ok-text-column-4" class="column ok-text-column" style="height: 204px;">
+              <div class="services">
+                <div class="services-title"><h3>Work</h3></div>
+                <div class="clear"></div>
+                <p>
+                  <h4><a href="http://www.nytimes.com">The New York Times</a></h4>
+                  Process Improvement Director
+                  <br>Quality Assurance Director
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="random-full-width-content" class="this-div-is-just-a-helpful-container">
+            <div class="section section-services">
+              <div id="scroll-coder-cred" class="section-title">
+                <span class="actual-title">Coder Cred</span>
+                <div class="go-to-top"><a href="#scroll-header">Go To Top</a></div>
+              </div>
+
+              <div class="services-wrap section coder-cred" id="equalize">
+
+                <div class="column fourth">
+                  <a href="http://www.github.com/laptite" target="_blank"><img src="http://static.001.students.flatironschool.com/images/github_eewang.png" alt="GitHub" width="130px"></a>
+                </div>
+
+                <div class="column fourth">
+                  <a href="http://teamtreehouse.com/alisachang2/" target="_blank"><img src="http://static.001.students.flatironschool.com/images/treehouse_eewang.png" alt="Treehouse" width="130px"></a>
+                </div>
+
+                <div class="column fourth">
+                  <a href="http://www.codeschool.com/users/laptitenyc" target="_blank"><img src="http://static.001.students.flatironschool.com/images/codeschool_eewang.jpg" alt="Code School" width="130"></a>
+                </div>
+
+                <div class="column fourth">
+                  <a href="https://coderwall.com/laptite" target="_blank"><img src="http://static.001.students.flatironschool.com/images/coderwall_eewang.jpeg" alt="Coder Wall" width="130"></a>
+                </div>
+              </div>
+              <! -- End Service -->
+            </div>
+            <! -- End Coder Cred -->
+          </div>
+
+          <div id="random-full-width-content" class="this-div-is-just-a-helpful-container">
+            <div id="scroll-recently" class="section section-services">
+              <div class="section-title">
+                <span class="actual-title">Favorites</span>
+                <div class="go-to-top"><a href="#scroll-header">Go To Top</a></div>
+              </div>
+
+              <div class="services-wrap" id="equalize">
+                <div id="ok-text-column-2" class="column ok-text-column" style="height: 204px;">
+                  <div class="services">
+                    <div class="services-title">
+                      <h3>Coding Profiles</h3>
+                    </div>
+                    <div class="clear"></div>
+                    <p>
+                      - <a href="http://www.codeschool.com/laptitenyc">Code School</a><br>
+                      - <a href="http://teamtreehouse.com/alisachang2">Treehouse</a><br>
+                      - <a href="http://www.codecademy.com/blogsurfer20700">Codecademy</a><br>
+                      - <a href="https://coderwall.com/laptite/">Coder Wall</a><br>
+                    </p>
+                  </div>
+                </div>
+
+                <div id="ok-text-column-3" class="column ok-text-column" style="height: 204px;">
+                  <div class="services">
+                    <div class="services-title"><h3>Resources</h3>
+                  </div>
+                  <div class="clear"></div>
+                  <p>
+                    - <a href="http://overapi.com" target="_blank">Overapi.com (Cheatsheets) </a><br>
+                    - <a href="http://www.fontsquirrel.com" target="_blank">Font Squirrel (Free Font Utopia)</a><br>
+                    - <a href="http://kuler.adobe.com" target="_blank">Adobe Kuler (Color Tester)</a><br>
+                  </p>
+                </div>
+              </div>
+
+              <div id="ok-text-column-4" class="column ok-text-column" style="height: 204px;">
+                <div class="services">
+                  <div class="services-title">
+                    <h3>Cool Sites</h3>
+                  </div>
+                  <div class="clear"></div>
+                  <p>
+                    - <a href="http://theaquaponicsource.com" target="_blank">Aquaponic Source </a><br>
+                    - <a href="http://googaro.com" target="_blank">Googaro</a><br>
+                    - <a href="http://www.foodmayhem.com" target="_blank">Food Mayhem</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div id="random-full-width-content" class="this-div-is-just-a-helpful-container">
+            <div id="scroll-favorites" class="section section-services">
+              <div class="section-title">
+                <span class="actual-title">Favorites</span>
+                <div class="go-to-top"><a href="#scroll-header">Go To Top</a></div>
+              </div>
+
+              <div class="services-wrap" id="equalize">
+                <div id="ok-text-column-2" class="column ok-text-column" style="height: 204px;">
+                  <div class="services">
+                    <div class="services-title">
+                      <h3>Coding Profiles</h3>
+                    </div>
+                    <div class="clear"></div>
+                    <p>
+                      - <a href="http://www.codeschool.com/users/awaxman11">Code School</a><br>
+                      - <a href="http://teamtreehouse.com/adamjwaxman">Treehouse</a><br>
+                      - <a href="http://www.codecademy.com/awaxman11">Codecademy</a><br>
+                      - <a href="https://coderwall.com/awaxman/">Coder Wall</a><br>
+                    </p>
+                  </div>
+                </div>
+
+                <div id="ok-text-column-3" class="column ok-text-column" style="height: 204px;">
+                  <div class="services">
+                    <div class="services-title"><h3>Personal Projects</h3>
+                  </div>
+                  <div class="clear"></div>
+                  <p>
+                    - <a href="http://www.rulethejungle.com">Rule the Jungle (Date Planning App)</a><br>
+                    - <a href="http://www.flockwithme.com">Flock (Mobile App)</a><br>
+                    - <a href="http://www.awaxman.com">Personal Homepage</a><br>
+                  </p>
+                </div>
+              </div>
+
+              <div id="ok-text-column-4" class="column ok-text-column" style="height: 204px;">
+                <div class="services">
+                  <div class="services-title">
+                    <h3>Flatiron School Projects</h3>
+                  </div>
+                  <div class="clear"></div>
+                  <p>Comming Soon..</p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+
+        <div class="clear"></div>
+      </div>
     </div>
-    <div class="clear"></div>
-    <!-- End Content -->
   </div>
-  <!-- End Main Wrapper -->
 
-
+  <div class="clear"></div>
+  <!-- End Footer Widgets -->
 
   <!-- Begin Footer -->
   <div class="footer">
     <div class="footer-text">
+      <div class="footer-text-left">
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="index.html">
+                <i class="icon-home icon-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/flatironschool">
+                <i class="icon-twitter icon-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://www.facebook.com/FlatironSchool">
+                <i class="icon-facebook-sign icon-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://instagram.com/flatironschool">
+                <i class="icon-camera-retro icon-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://www.linkedin.com/company/the-flatiron-school">
+                <i class="icon-linkedin-sign icon-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/organizations/flatiron-school">
+                <i class="icon-github-alt icon-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
       <div class="footer-text-right">
-        <div class="copyright">&copy; 2013. The Flatiron School.  All Your Rights Are Belong To Us.</div>
+        <div class="copyright">
+          &copy; 2013. The Flatiron School.  All Your Rights Are Belong To Us.
+        </div>
       </div>
       <div class="clear"></div>
     </div>
@@ -829,11 +365,11 @@
   <!-- End Footer -->
 
   <script type='text/javascript'>var custom_js_vars={"flexslider_auto":"enabled"};</script>
-  <script type='text/javascript' src="js/custom.js"></script>
-  <script type='text/javascript' src="js/jquery.flexslider.js"></script>
-  <script type='text/javascript' src="js/jquery.tabs.min.js"></script>
-  <script type='text/javascript' src="js/jquery.fitvids.js"></script>
-  <script type='text/javascript' src="js/jquery.mobilemenu.js"></script>
+  <script type='text/javascript' src="../js/custom.js"></script>
+  <script type='text/javascript' src="../js/jquery.flexslider.js"></script>
+  <script type='text/javascript' src="../js/jquery.tabs.min.js"></script>
+  <script type='text/javascript' src="../js/jquery.fitvids.js"></script>
+  <script type='text/javascript' src="../js/jquery.mobilemenu.js"></script>
 
   <script type="text/javascript">
 
@@ -847,12 +383,11 @@
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-
   </script>
 
   <!-- Start of Async HubSpot Analytics Code -->
   <script type="text/javascript">
-  (function(d,s,i,r) {
+    (function(d,s,i,r) {
 
       if (d.getElementById(i)){return;}
 
@@ -862,8 +397,26 @@
 
       e.parentNode.insertBefore(n, e);
 
-  })(document,"script","hs-analytics",300000);
+    })(document,"script","hs-analytics",300000);
+
+    document.getElementById('#background').scrollIntoView();
   </script>
   <!-- End of Async HubSpot Analytics Code -->
+
+  <script type="text/javascript">
+    jQuery('a').smoothScroll({offset: -152, speed: 1000});
+    jQuery('.go-to-link a').smoothScroll();
+  </script>
 </body>
 </html>
+
+<!-- CSS -->
+<style>
+
+.top-page-title {
+  background: url(../img/alisa-background.png) no-repeat top center;
+  background-size: 100% 100%;
+  margin-bottom: 100px;
+  text-align: center;
+}
+</style>
