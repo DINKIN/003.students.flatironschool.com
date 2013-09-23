@@ -435,7 +435,7 @@ img {
 .page-title {
     border-bottom: solid 1px #eee;
     padding: 30px 0;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     position: relative;
 }
 
@@ -1341,8 +1341,9 @@ h3#comments {
     padding-bottom: 70px;
 }
 
-.section-services {
+.section-services-tp {
     padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .section-portfolio {
@@ -2099,7 +2100,7 @@ h3#comments {
 
 .footer-widgets {
     max-width: 980px;
-    margin: 50px auto 0 auto;
+    margin: 20px auto 0 auto;
     padding: 0px 0 75px 0;
     border-top: solid 5px #f2f2f2;
 }
@@ -3080,6 +3081,7 @@ img.tp-pic {
     box-shadow: 0 0 0 10px #ccc;
 }
 
+
     /* Manuel Neuhauser - Custom styles for profile page */
 
     .manuel-neuhauser-profile-image  {
@@ -3110,6 +3112,20 @@ img.tp-pic {
         -moz-box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 13px 10px rgba(0, 0, 0, 0.6);
         -webkit-box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 13px 10px rgba(0, 0, 0, 0.6);
         box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 13px 10px rgba(0, 0, 0, 0.6);
+    }
 
+/** STUDENT STYLES **/
+
+    .vinney-pic {
+        border-radius: 125px;
+        box-shadow: 0px 0px 0px 10px #60BDDB, 14px 16px 12px #CCC;
+        margin-bottom: 20px;
+    }
+
+    .vinney-words {
+        border: 1px dotted grey;
+        padding: 1px;
+        margin: 1px;
+        border-radius: 4px;
     }
 
