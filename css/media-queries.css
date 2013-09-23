@@ -360,6 +360,7 @@
 /* Three Column */
 
 @media screen and (min-width:860px) {
+
   .portfolio-block {
     width: 31%;
     margin: 0 2.2% 25px 0 !important;
