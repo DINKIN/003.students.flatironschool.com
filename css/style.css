@@ -2720,6 +2720,8 @@ input.hs-button.primary.large{
 
 /* ===[ Shortcode Tabbed Box Styles ]===================================================== */
 
+
+
 .tabs {
     list-style-type: none !important;
     margin: 0 !important;
@@ -2785,6 +2787,8 @@ input.hs-button.primary.large{
 
 #sidebar .tab-wrapper { width: 100% }
 
+
+
 .tab-wrapper li {
     float: left;
     background: none !important;
@@ -2796,6 +2800,7 @@ input.hs-button.primary.large{
 .tab-wrapper li:last-child {
     margin-right: 0px !important;
 }
+
 
 .tab-wrapper li a {
     display: block;
@@ -2826,6 +2831,12 @@ input.hs-button.primary.large{
     font-size: 17px;
     line-height: 32px;
 }
+
+.tab-center {
+    margin: 0 auto !important;
+    padding-top: 10px;
+}
+
 
 #sidebar .panes {
     width: 99%;
