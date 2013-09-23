@@ -35,10 +35,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #4c4c4c;
 }
 
-h3 {
-    color: #26c4ff;
-}
-
 html { height: 100% }
 
 body {
@@ -104,6 +100,7 @@ p { margin-bottom: 15px }
     font-size: 0px;
     line-height: 0px;
     display: block;
+
 }
 
 .clearfix:after {
@@ -437,6 +434,36 @@ img {
     padding: 30px 0;
     margin-bottom: 40px;
     position: relative;
+}
+
+.page-title .profile-pic img {
+    width: 250;
+    height: 250;
+    border-radius: 125px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.page-title .profile-pic img:hover {
+    width: 250;
+    height: 250;
+    border-radius: 125px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
 }
 
 .page-title-portfolio {
@@ -949,6 +976,10 @@ img {
 
 .tagcloud a:hover { color: #555 }
 
+.inline-menu-content li {
+    display: inline;
+}
+
 /* ===[ Default Widget Styles ]===================================================== */
 
 .widget_archive select {
@@ -1342,7 +1373,7 @@ h3#comments {
 }
 
 .section-services {
-    padding-bottom: 20px;
+    padding-bottom: 80px;
 }
 
 .section-portfolio {
@@ -1371,8 +1402,9 @@ h3#comments {
     color: #60BDDB;
 }
 
-.section-testimonials-curriculum-tp {
-    padding-bottom: 20px;
+.section-testimonials-curriculum {
+    padding-top: 40px;
+    padding-bottom: 150px;
 }
 
 .section-testimonials-curriculum a {
@@ -2332,6 +2364,7 @@ input.hs-button.primary.large{
     display: inline;
     padding: 0px 3px;
     font-weight: bold;
+    font-size: 75%;
 }
 
 /* ===[ Full Width Shortcode Column Styles ]===================================================== */
@@ -3070,46 +3103,5 @@ object#bigify {
         visibility: hidden;
         position: relative;
         top: -175px;
-    }
-/*=== t_peon changes ===*/
-
-
-img.tp-pic {
-    border-radius: 125px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 0 10px #ccc;
-}
-
-    /* Manuel Neuhauser - Custom styles for profile page */
-
-    .manuel-neuhauser-profile-image  {
-        -moz-border-radius: 125px;
-        -webkit-border-radius: 125px;
-        border-radius: 125px;       
-        
-        -moz-box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 10px 10px rgba(0, 0, 0, 0.6);
-        -webkit-box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 10px 10px rgba(0, 0, 0, 0.6);
-        box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 10px 10px rgba(0, 0, 0, 0.6);
-
-        -moz-transform: scale(0.9);
-        -webkit-transform: scale(0.9);
-        transform: scale(0.9);
-
-        -moz-transition: all 0.5s;
-        -webkit-transition: all 0.5s;
-        transition: all 0.5s;
-
-        margin-bottom: 20px;
-    }
-
-    .manuel-neuhauser-profile-image:hover  {
-        -moz-transform: rotate(-5deg) scale(1);
-        -webkit-transform: rotate(-5deg) scale(1);
-        transform: rotate(-5deg) scale(1);
-
-        -moz-box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 13px 10px rgba(0, 0, 0, 0.6);
-        -webkit-box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 13px 10px rgba(0, 0, 0, 0.6);
-        box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 13px 10px rgba(0, 0, 0, 0.6);
-
     }
 
