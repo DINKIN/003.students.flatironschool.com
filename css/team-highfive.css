@@ -1,0 +1,42 @@
+/* LISTS
+_______________________*/
+
+ul.horizontal li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+/* LINKS
+_______________________*/
+
+/*a {
+	font-weight: bold;
+}*/
+
+
+/* LAYOUT
+_______________________*/
+.container {
+	width: 600px;
+	margin-left: auto;
+	margin-left: auto;
+}
+
+.profile-header .profile-image {
+
+	float: right;
+	width: 200px;
+
+
+-webkit-border-image:url(border.png) 30 30 round; /* Safari 5 */
+-o-border-image:url(border.png) 30 30 round; /* Opera */
+border-image:url(border.png) 30 30 round;
+}
+
+.social {
+	clear: both;
+	width:400px;
+	margin-left: auto;
+	margin-left: auto;
+}
