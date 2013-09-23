@@ -3069,3 +3069,35 @@ object#bigify {
         top: -175px;
     }
 
+    /* Manuel Neuhauser - Custom styles for profile page */
+
+    .manuel-neuhauser-profile-image  {
+        -moz-border-radius: 125px;
+        -webkit-border-radius: 125px;
+        border-radius: 125px;       
+        
+        -moz-box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 10px 10px rgba(0, 0, 0, 0.6);
+        -webkit-box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 10px 10px rgba(0, 0, 0, 0.6);
+        box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 10px 10px rgba(0, 0, 0, 0.6);
+
+        -moz-transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+
+        -moz-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+
+        margin-bottom: 20px;
+    }
+
+    .manuel-neuhauser-profile-image:hover  {
+        -moz-transform: rotate(-5deg) scale(1);
+        -webkit-transform: rotate(-5deg) scale(1);
+        transform: rotate(-5deg) scale(1);
+
+        -moz-box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 13px 10px rgba(0, 0, 0, 0.6);
+        -webkit-box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 13px 10px rgba(0, 0, 0, 0.6);
+        box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 13px 10px rgba(0, 0, 0, 0.6);
+
+    }
