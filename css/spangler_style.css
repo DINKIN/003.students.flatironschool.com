@@ -3,6 +3,13 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
     padding: 0;
 }
 
+.top-page-title {
+  background: url(http://thepoliticizer.com/wp-content/uploads/2010/03/california-state-flag_bigger.jpg) no-repeat top center;
+  background-size: 100% 100%;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
