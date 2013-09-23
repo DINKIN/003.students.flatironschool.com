@@ -35,6 +35,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #4c4c4c;
 }
 
+h3 {
+    color: #26c4ff;
+}
+
 html { height: 100% }
 
 body {
@@ -1337,7 +1341,8 @@ h3#comments {
     padding-bottom: 70px;
 }
 
-.section-services {
+.section-services-tp {
+    padding-bottom: 20px;
     padding-bottom: 30px;
 }
 
@@ -1367,9 +1372,8 @@ h3#comments {
     color: #60BDDB;
 }
 
-.section-testimonials-curriculum {
-    padding-top: 40px;
-    padding-bottom: 150px;
+.section-testimonials-curriculum-tp {
+    padding-bottom: 20px;
 }
 
 .section-testimonials-curriculum a {
@@ -3068,28 +3072,38 @@ object#bigify {
         position: relative;
         top: -175px;
     }
+/*=== t_peon changes ===*/
+
+
+img.tp-pic {
+    border-radius: 125px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0 10px #ccc;
+}
 
 
     /* Manuel Neuhauser - Custom styles for profile page */
 
     .manuel-neuhauser-profile-image  {
-        -moz-border-radius: 125px;
-        -webkit-border-radius: 125px;
-        border-radius: 125px;       
+        -moz-border-radius: 150px;
+        -webkit-border-radius: 150px;
+        border-radius: 150px;       
         
         -moz-box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 10px 10px rgba(0, 0, 0, 0.6);
         -webkit-box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 10px 10px rgba(0, 0, 0, 0.6);
         box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 10px 10px rgba(0, 0, 0, 0.6);
 
-        -moz-transform: scale(0.9);
-        -webkit-transform: scale(0.9);
-        transform: scale(0.9);
+        -moz-transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
 
         -moz-transition: all 0.5s;
         -webkit-transition: all 0.5s;
         transition: all 0.5s;
 
-        margin-bottom: 20px;
+        margin-top: -60px;
+        margin-bottom: 10px;
+        margin-left: 600px;
     }
 
     .manuel-neuhauser-profile-image:hover  {
@@ -3101,6 +3115,12 @@ object#bigify {
         -webkit-box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 13px 10px rgba(0, 0, 0, 0.6);
         box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 13px 10px rgba(0, 0, 0, 0.6);
     }
+
+    .manuel-neuhauser-profile-banner {
+        background-image: url(../img/students/manuelneuhauser.jpg);
+        background-repeat: no-repeat;
+        background-position: 0px -20px;
+        }
 
 /** STUDENT STYLES **/
 
