@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 23a258de8fc1dfb7b62c756607674bf378ef59d9
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
     margin: 0;
     padding: 0;
@@ -3018,6 +3022,7 @@ input.hs-button.primary.large{
     border-top: solid 1px #eee;
     border-bottom: solid 1px #eee;
 }
+<<<<<<< HEAD
 
 .services h3 {
     font-size: 18px;
@@ -3056,5 +3061,47 @@ input.hs-button.primary.large{
   border-top: none;
 
 }
+=======
+
+.services h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    width: 295px;
+}
+
+.services first-child {
+    width: 100%;
+    padding-top: none;
+    border-top: none;
+}
+
+.services {
+  width: 100%;
+}
+
+.go-to-top {
+  text-align: right;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.about-text {
+  width: 500px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 20px;
+  line-height: 130%;
+  border-top: none;
+
+}
+
+body.students a{color:#60BDDB} /*Causing the social icons to be blue*/
+>>>>>>> 23a258de8fc1dfb7b62c756607674bf378ef59d9
 
 body.students a{color:#60BDDB} /*Causing the social icons to be blue*/
