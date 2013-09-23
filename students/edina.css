@@ -218,7 +218,16 @@ background: url('supermassivecsspriteicons.png') no-repeat 0 0;
 	
 }
 
+.headerlink{
+	width: 50%;
+	margin: auto;
+	margin-bottom: 20px;
+	font-size: 1.2em;
+}
 
+.img-rounded {
+    border-radius: 8px 8px 8px 8px;
+}
 
 
 
@@ -226,12 +235,14 @@ background: url('supermassivecsspriteicons.png') no-repeat 0 0;
 
 
 .col1_left{
-	padding-top: 25px;
+	text-align: justify;
+	padding-top: 35px;
 	/*border: 1px dashed gray;*/
 	border-radius: 5px 5px;
 	float:left;
 	width: 32.6%;
 	margin: 0 0 20px 0;
+
 }
 
 .col1_mid{
@@ -243,6 +254,7 @@ background: url('supermassivecsspriteicons.png') no-repeat 0 0;
 }
 
 .col1_right{
+	text-align: justify;
 		/*border: 1px dashed gray;*/
 	border-radius: 5px 5px;
 	float:right;
@@ -266,23 +278,28 @@ background: url('supermassivecsspriteicons.png') no-repeat 0 0;
 	float:left;
 	width: 66.4%;
 	margin: 0 1% 20px 0;
+	text-align: justify;
 
 }
 
 .colsp_left {
+	text-align: justify;
 	border: 1px dashed gray;
 	border-radius: 5px 5px;
 	float: left;
 	width: 48.5%;
 	margin: 0 3% 20px 0;
+	padding: 5px;
 }
 
 .colsp_right {
+	text-align: justify;
 	border: 1px dashed gray;
 	border-radius: 5px 5px;
 	float: right;
 	width: 48.5%;
 	margin: 0 0 20px 0;
+	padding: 5px;
 
 }
 
