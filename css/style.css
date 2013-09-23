@@ -3077,3 +3077,18 @@ object#bigify {
         margin-bottom: 20px;
     }
 
+    .vinney-words {
+        border: 1px dotted grey;
+        padding: 1px;
+        margin: 1px;
+        border-radius: 4px;
+    }
+
+    /** 
+    .vinney-page-title {
+        background-image: url("../img/students/cavallo_vinney_background.jpg");
+        background-repeat: no-repeat;
+        margin: auto;
+    **/
+
+    }
