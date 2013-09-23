@@ -35,6 +35,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #4c4c4c;
 }
 
+h3 {
+    color: #26c4ff;
+}
+
 html { height: 100% }
 
 body {
@@ -1338,7 +1342,7 @@ h3#comments {
 }
 
 .section-services {
-    padding-bottom: 80px;
+    padding-bottom: 20px;
 }
 
 .section-portfolio {
@@ -1367,9 +1371,8 @@ h3#comments {
     color: #60BDDB;
 }
 
-.section-testimonials-curriculum {
-    padding-top: 40px;
-    padding-bottom: 150px;
+.section-testimonials-curriculum-tp {
+    padding-bottom: 20px;
 }
 
 .section-testimonials-curriculum a {
@@ -3068,4 +3071,10 @@ object#bigify {
         position: relative;
         top: -175px;
     }
+/*=== t_peon changes ===*/
 
+img.tp-pic {
+    border-radius: 125px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0 10px #ccc;
+}
