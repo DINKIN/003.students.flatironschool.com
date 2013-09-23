@@ -3106,7 +3106,7 @@ object#bigify {
 
     .vinney-pic {
         border-radius: 125px;
-        box-shadow: 0px 0px 0px 10px #60BDDB, 14px 16px 12px #CCC;
+        box-shadow: 0px 0px 0px 10px #60BDDB;
         margin-bottom: 20px;
     }
 
@@ -3117,5 +3117,9 @@ object#bigify {
         border-radius: 4px;
     }
 
-
+    .vinney-bkg {
+        background-image: url("../img/students/cavallo_vinney_background2.jpg");
+        background-repeat: no-repeat;
+        background-position: center 0;
+    }
     
