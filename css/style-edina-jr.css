@@ -72,8 +72,6 @@ figcaption {
 	text-align: left;
 }
 
-
-
 li {
 	margin-left: 20px;
 }
@@ -86,6 +84,10 @@ footer {
 
 
 /***** IDs *****/
+
+#center {
+	text-align: center;
+}
 
 #nav_bar {
 	border-top: 1px dashed #ccc;
@@ -190,7 +192,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edaf76', end
 
 
 /***** Classes *****/
-
+.check_style li {
+	background: url(../images/check.png) no-repeat left .4em;
+	padding-left: 20px;
+	list-style: none;
+}
 
 .darker {
 	color: rgb(68, 60, 48);
