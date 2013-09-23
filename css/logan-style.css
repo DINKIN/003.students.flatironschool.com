@@ -436,12 +436,34 @@ img {
     position: relative;
 }
 
-.page-title .profile-pic img{
+.page-title .profile-pic img {
     width: 250;
     height: 250;
     border-radius: 125px;
     margin-bottom: 20px;
     box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.page-title .profile-pic img:hover {
+    width: 250;
+    height: 250;
+    border-radius: 125px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
 }
 
 .page-title-portfolio {
