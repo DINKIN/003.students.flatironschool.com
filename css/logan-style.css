@@ -35,6 +35,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #4c4c4c;
 }
 
+h3 {
+    color: #26C4FF;
+}
+
 html { height: 100% }
 
 body {
@@ -441,12 +445,12 @@ img {
     height: 250;
     border-radius: 125px;
     margin-bottom: 20px;
-    box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
-    -moz-transform: scale(0.9);
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
+    box-shadow: 0 0 0 5px #60BDDB, 5px 5px 10px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 0 5px #60BDDB, 5px 5px 10px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 0 5px #60BDDB, 5px 5px 10px rgba(0, 0, 0, 0.6);
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
 
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -458,9 +462,9 @@ img {
     height: 250;
     border-radius: 125px;
     margin-bottom: 20px;
-    box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 0 0 0 5px #60BDDB, 3px 3px 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 0 5px #60BDDB, 5px 5px 15px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 0 5px #60BDDB, 5px 5px 15px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 0 5px #60BDDB, 5px 5px 15px rgba(0, 0, 0, 0.6);
     -moz-transform: scale(1.0);
     -webkit-transform: scale(1.0);
     transform: scale(1.0);
