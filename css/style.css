@@ -35,6 +35,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #4c4c4c;
 }
 
+h3 {
+    color: #26c4ff;
+}
+
 html { height: 100% }
 
 body {
@@ -431,7 +435,7 @@ img {
 .page-title {
     border-bottom: solid 1px #eee;
     padding: 30px 0;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     position: relative;
 }
 
@@ -1337,8 +1341,9 @@ h3#comments {
     padding-bottom: 70px;
 }
 
-.section-services {
-    padding-bottom: 80px;
+.section-services-tp {
+    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .section-portfolio {
@@ -1367,9 +1372,8 @@ h3#comments {
     color: #60BDDB;
 }
 
-.section-testimonials-curriculum {
-    padding-top: 40px;
-    padding-bottom: 150px;
+.section-testimonials-curriculum-tp {
+    padding-bottom: 20px;
 }
 
 .section-testimonials-curriculum a {
@@ -2096,7 +2100,7 @@ h3#comments {
 
 .footer-widgets {
     max-width: 980px;
-    margin: 50px auto 0 auto;
+    margin: 20px auto 0 auto;
     padding: 0px 0 75px 0;
     border-top: solid 5px #f2f2f2;
 }
@@ -3068,6 +3072,15 @@ object#bigify {
         position: relative;
         top: -175px;
     }
+/*=== t_peon changes ===*/
+
+
+img.tp-pic {
+    border-radius: 125px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0 10px #ccc;
+}
+
 
     /* Manuel Neuhauser - Custom styles for profile page */
 
@@ -3099,5 +3112,20 @@ object#bigify {
         -moz-box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 13px 10px rgba(0, 0, 0, 0.6);
         -webkit-box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 13px 10px rgba(0, 0, 0, 0.6);
         box-shadow:  0px 0px 0px 5px #fff, 0px 0px 0px 15px #60BDDB, 3px 3px 13px 10px rgba(0, 0, 0, 0.6);
-
     }
+
+/** STUDENT STYLES **/
+
+    .vinney-pic {
+        border-radius: 125px;
+        box-shadow: 0px 0px 0px 10px #60BDDB, 14px 16px 12px #CCC;
+        margin-bottom: 20px;
+    }
+
+    .vinney-words {
+        border: 1px dotted grey;
+        padding: 1px;
+        margin: 1px;
+        border-radius: 4px;
+    }
+
