@@ -1,3 +1,12 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}
+
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
     margin: 0;
     padding: 0;
@@ -11,6 +20,11 @@ table {
 fieldset, img { border: 0 }
 
 ol, ul { list-style: none }
+
+ul.bulleted {
+  list-style: disc;
+  padding-left: 2em;
+}
 
 caption, th { text-align: left }
 
@@ -111,7 +125,7 @@ blockquote p {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    padding: 15px 0 15px 30px;
+    padding: 15px 0 15px 30px; 
     margin: 25px 0;
 }
 
@@ -212,7 +226,7 @@ img {
     padding-top: 3px;
 }
 
-.header-hidden-right {
+.header-hidden-right { 
     float: right;
     width: 40%;
 }
@@ -233,7 +247,6 @@ img {
 .header {
     max-width: 980px;
     margin: 0 auto;
-    padding-top: 40px;
     border-bottom: solid 1px #eee;
 }
 
@@ -244,7 +257,7 @@ img {
 
 .header-left img { padding: 0 0 0 0 }
 
-.header-left h1 {
+.header-left h1 { 
     margin: 5px 0 0 0;
 }
 
@@ -255,25 +268,26 @@ img {
     font-weight: 600;
     line-height: 28px;
     letter-spacing: -2px;
-    -webkit-transition: .04s ease-in;
+    -webkit-transition: .04s ease-in;  
     -moz-transition: .04s ease-in;
-    transition: .04s ease-in;
+    transition: .04s ease-in; 
 }
 
 .header-left h1 a:hover {
     color: #999;
-    -webkit-transition: .04s ease-in;
+    -webkit-transition: .04s ease-in;  
     -moz-transition: .04s ease-in;
     transition: .04s ease-in;
 }
 
 .logo {
-    margin-top: -30px !important;
+    padding-bottom: 5px;
 }
 
 .header-right {
     width: 75%;
     float: right;
+    padding-top: 40px;
 }
 
 /* ===[ Header Navigation Styles ]===================================================== */
@@ -294,7 +308,7 @@ img {
     z-index: 1000;
 }
 
-#nav a {
+#nav a,#nav span {
     display: block;
     padding: 5px;
     color: #aaa;
@@ -305,6 +319,7 @@ img {
     font-family: 'Merriweather', Georgia, serif;
 }
 
+
 #nav > .current-menu-item > a, #nav > li a:hover { color: #4C4C4C }
 
 .plus { color: #aaa }
@@ -312,6 +327,7 @@ img {
 #nav ul {
     position: absolute;
     display: none;
+    top: 15px;
 }
 
 #nav li {
@@ -321,7 +337,7 @@ img {
     padding-bottom: 17px;
 }
 
-#nav li a {
+#nav li a, #nav span {
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
@@ -330,6 +346,10 @@ img {
 
 #nav > li > a { padding: 5px 12px }
 
+#nav span { 
+  padding: 5px 12px;
+  cursor: default;
+}
 #nav > li:last-child a {
     margin-right: 0px;
     padding-right: 0px;
@@ -362,7 +382,7 @@ img {
 
 #nav .sub-menu li:first-child { border-top: solid 1px #eee }
 
-#nav > li > ul { margin-top: 17px }
+#nav > li > ul { margin-top: 15px }
 
 #nav li ul li {
     border-bottom: solid 1px #eee;
@@ -381,7 +401,7 @@ img {
     color: #555;
 }
 
-#nav ul ul { top: auto }
+#nav ul ul { top: auto; }
 
 #nav ul ul li:first-child { border-top: solid 1px #eee }
 
@@ -781,21 +801,21 @@ img {
     text-transform: uppercase;
     font-family: "Merriweather", Georgia, serif;
     color: #777;
-    -webkit-transition: .07s ease-in;
+    -webkit-transition: .07s ease-in;  
     -moz-transition: .07s ease-in;
-    transition: .07s ease-in;
+    transition: .07s ease-in; 
     -webkit-appearance:none;
 }
 
 #searchsubmit:hover {
     background: #fff666;
     color: #222;
-    -webkit-transition: .07s ease-in;
+    -webkit-transition: .07s ease-in;  
     -moz-transition: .07s ease-in;
-    transition: .07s ease-in;
+    transition: .07s ease-in; 
 }
 
-#searchform {
+#searchform { 
     float: left;
     width: 100%;
 }
@@ -851,17 +871,17 @@ img {
     font-size: 12px;
 }
 
-#sidebar a {
+#sidebar a { 
     text-decoration: none;
-    -webkit-transition: .07s ease-in;
+    -webkit-transition: .07s ease-in;  
     -moz-transition: .07s ease-in;
-    transition: .07s ease-in;
+    transition: .07s ease-in; 
 }
 
 #sidebar a:hover {
-    -webkit-transition: .07s ease-in;
+    -webkit-transition: .07s ease-in;  
     -moz-transition: .07s ease-in;
-    transition: .07s ease-in;
+    transition: .07s ease-in; 
 }
 
 .widget {
@@ -890,7 +910,7 @@ img {
     padding: 0;
 }
 
-#sidebar .widget li {
+#sidebar .widget li { 
     margin: 0 0 5px 15px;
     list-style-type: square;
 }
@@ -983,7 +1003,7 @@ img {
 }
 
 .commentlist {
-    margin-bottom: 0 !important;
+    margin-bottom: 0 !important; 
 }
 
 .comments li { background: none !important }
@@ -1077,18 +1097,18 @@ h3#comments {
     padding: 10px 20px;
     margin: 5px 0 0 0;
     border: none;
-    -webkit-transition: .07s ease-in;
+    -webkit-transition: .07s ease-in;  
     -moz-transition: .07s ease-in;
-    transition: .07s ease-in;
+    transition: .07s ease-in; 
     -webkit-appearance:none;
 }
 
 #respond #submit:hover {
     background: #666;
     cursor: pointer;
-    -webkit-transition: .07s ease-in;
+    -webkit-transition: .07s ease-in;  
     -moz-transition: .07s ease-in;
-    transition: .07s ease-in;
+    transition: .07s ease-in; 
 }
 
 #respond #commentform p {
@@ -1321,10 +1341,6 @@ h3#comments {
     padding-bottom: 80px;
 }
 
-.section-services.student-index {
-    padding-bottom: 0px;
-}
-
 .section-portfolio {
     padding-bottom: 45px;
 }
@@ -1372,13 +1388,6 @@ h3#comments {
     margin-bottom: 3%;
 }
 
-.section .column.fourth{
-  width: 25%;
-}
-
-.section.coder-cred{
-  margin-left: 20px;
-}
 .section .column:last-child {
     margin-right: 0px;
     border-right: none;
@@ -1551,23 +1560,6 @@ h3#comments {
     padding-top: 8px;
 }
 
-.services ul{
-  margin-top: 15px;
-  font-size: 13px;
-  border-top: dotted 1px #e6e6e6;
-  padding-top: 6px;
-}
-
-.services ul li{
-  border-bottom: dotted 1px #e6e6e6;
-  padding: 3px 0 4px 0;
-}
-
-.services h4{
-  font-size: 14px;
-  line-height: 0;
-  text-decoration: underline
-}
 .services:hover .service-icon {
     background: #fff666;
     -webkit-transition: .1s ease-in;
@@ -1578,7 +1570,7 @@ h3#comments {
 
 /* ===[ Home Blog Styles ]===================================================== */
 
-body.students .home-blog {
+.home-blog { 
     display: block;
     margin-left: -2.2%;
     max-width: 1020px;
@@ -1586,11 +1578,6 @@ body.students .home-blog {
 
 .home-blog-post li{
     list-style-type:none;
-}
-
-body.students ul li.home-blog-post{
-    list-style-type:none;
-    height: 600px;
 }
 
 .home-blog-post {
@@ -1641,9 +1628,6 @@ body.students ul li.home-blog-post{
     -moz-transition: .1s ease-in;
     -o-transition: .1s ease-in;
     transition: .1s ease-in;
-    position: relative;
-    overflow: hidden;
-    height: 310px;
 }
 
 .home-blog-post .blog-thumb img {
@@ -1909,7 +1893,7 @@ body.students ul li.home-blog-post{
     width: 103%;
 }
 
-.portfolio-blocks {
+.portfolio-blocks { 
     max-width: 1008px;
     overflow: hidden;
     color: white;
@@ -1946,9 +1930,9 @@ body.students ul li.home-blog-post{
 
 .portfolio-block-inside a {
     display: block;
-    -webkit-transition: .07s ease-in;
+    -webkit-transition: .07s ease-in;  
     -moz-transition: .07s ease-in;
-    transition: .07s ease-in;
+    transition: .07s ease-in; 
 }
 
 .portfolio-block-inside img {
@@ -2034,7 +2018,7 @@ body.students ul li.home-blog-post{
     width: 100%;
 }
 
-.portfolio-full {
+.portfolio-full { 
     padding-top: 30px;
     max-width: 980px !important
 }
@@ -2043,7 +2027,7 @@ body.students ul li.home-blog-post{
     padding-top: 0;
 }
 
-.content ul, .content ol {
+.content ul, .content ol { 
     margin: 0 0 20px 15px;
 }
 
@@ -2129,7 +2113,7 @@ body.students ul li.home-blog-post{
 }
 
 .footer-widget:last-child {
-
+    
 }
 
 .footer-widget a { text-decoration: none }
@@ -2300,7 +2284,7 @@ input.hs-button.primary.large{
     padding: 10px 20px;
     margin: 5px 0 0 0;
     border: none;
-    -webkit-transition: .07s ease-in;
+    -webkit-transition: .07s ease-in;  
     -moz-transition: .07s ease-in;
     transition: .07s ease-in;
     -webkit-appearance:none;
@@ -2309,9 +2293,9 @@ input.hs-button.primary.large{
 .hbspt-form-submit:hover {
     background: #666;
     cursor: pointer;
-    -webkit-transition: .07s ease-in;
+    -webkit-transition: .07s ease-in;  
     -moz-transition: .07s ease-in;
-    transition: .07s ease-in;
+    transition: .07s ease-in; 
 }
 
 .hbspt-form-response-output {
@@ -2847,7 +2831,7 @@ input.hs-button.primary.large{
     width: 99%;
 }
 
-#sidebar .panes .pane {
+#sidebar .panes .pane { 
     margin-top: 2px;
     background: #f7f7f7;
     padding: 15px !important;
@@ -2869,7 +2853,7 @@ input.hs-button.primary.large{
 .change-font a:hover { color: #4c4c4c }
 
 .chirp li {
-    border-bottom: solid 1px #eee !important;
+    border-bottom: solid 1px #eee !important; 
     padding-bottom: 10px !important;
     margin: 0 0 10px 0 !important;
     list-style-type: none !important;
@@ -2881,180 +2865,207 @@ input.hs-button.primary.large{
     padding-bottom: 0 !important;
 }
 
-/* Styles for Student Profile - from desmond.css */
+/* ===[ portfolio block images ]===================================================== */
 
-.ib_main_header {
-  padding: 0;
-  margin-top: 30px;
-  font-size: 40px;
-}
-
-.student_pic {
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  width: 140px;
-  height: 140px;
-  top: -212px;
-  left: 41.07%;
-  border: 2px solid white;
-  margin-top: 205px;
+.portfolio-block-inside img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
 
+/* ==[ svg logos ]==================================================================== */
 
-.page-title, .top-page-title {
-  /*background: url(../img/plaza_espana.jpg) no-repeat top center;*/
-  margin-bottom: 0;
-  padding: 0;
-  height: 275px;
-  text-align: bottom;
-}
-
-.page-title {
-  position: relative;
-  vertical-align:bottom;
+object, svg {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
 }
 
-.top-page-title {
-  background: url(../img/j-collins-background.jpg) no-repeat top center;
-  background-size: 100% 100%;
-  margin-bottom: 100px;
-  text-align: center;
+object#minify {
+   width: 239px;
+   height: 23px;
+   display: none;
+   margin-top: 12px;
+   margin-left: -20px;
+   pointer-events: none;
 }
 
-.ib-social-icons {
-  font-size: 40px;
-  padding: 0 10px;
+object#bigify {
+    width: 140px;
+    height: 89px; 
+    display: block;
+    padding: 5px 3px 3px;
+    display: block;
+    pointer-events: none;
 }
 
-.social-icons {
-  padding:20px 0;
+.header-left a {
+    display: inline-block;
+    width: auto;
+    height: auto;
 }
 
-.title-div {
-  background: white;
-  width: 500px;
-  margin: 0 auto;
-  position: relative;
-  top: 20px;
-}
+/* ==[ jg-styles for faculty page ]====================================================== */
 
-.icon-twitter:hover {
-  color: #06ADE8;
-}
+/* faculty member row */
 
-.icon-linkedin-sign:hover {
-  color: #1F83B9;
-}
-
-.icon-github:hover {
-  color: black;
-}
-
-.icon-edit:hover {
-  color: #FFCC00;
-}
-
-.icon-rss:hover {
-  color: #009933;
-}
-
-.link-subs {
-  padding-top: 10px;
-  margin: 0 auto;
-  width: 980px;
-  text-align: left;
-  padding-bottom: 10px;
-  border-bottom: solid 1px #eee;
-  padding-left: 2px;
-  padding-right: 2px;
-}
-.link-subs span{
-  display: inline;
-  font-size: 20px;
-  font-weight: bold;
-  color: #000;
-}
-.link-subs li{
-  display: inline;
-}
-
-.link-subs ul {
-  float: right;
-  text-align: right;
-  letter-spacing: 2px;
-  font-size: 10px;
-  text-transform: uppercase;
-}
-.link-subs ul li a{
-  color: #aaa;
-}
-.link-subs ul a:hover {
-  color: #37C5FD;
-}
-
-.section-testimonials-curriculum {
-    padding-top: 40px;
-    padding-bottom: 50px;
-}
-
-.quote-div {
-  padding: 15px 0;
-}
-
-.testimonials h3 {
-  font-size: 16px;
-  line-height: 140%;
-}
-
-.section-title {
-    letter-spacing: 5px;
-    font-size: 40px;
-    font-weight: bold;
-    text-transform: uppercase;
-    /*margin-bottom: 40px;*/
-    text-align: center;
-    padding-top: 35px;
-    border-top: solid 1px #eee;
-    border-bottom: solid 1px #eee;
-}
-
-.services h3 {
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 20px;
-    margin-bottom: 0;
-    text-align: center;
-    width: 295px;
-}
-
-.services first-child {
+.jg-row {
     width: 100%;
-    padding-top: none;
-    border-top: none;
+    display: block;
+    border-bottom: 1px dotted #ccc;
+    padding: 25px 0;
 }
 
-.services {
-  width: 100%;
-}
+  /* expandable bio text link (see custom.js) */
 
-.go-to-top {
-  text-align: right;
-  font-size: 11px;
-  letter-spacing: 1px;
-}
+  .jg-row .expand {
+    display: block;
+    clear: both;
+    margin: 0;
+    cursor: pointer;
+    color: #60BDDB;
+  }
 
-.about-text {
-  width: 500px;
-  margin: 0 auto;
-  padding-bottom: 20px;
-}
+  .jg-row .expand:hover {
+    color: #333;
+  }
 
-.about-text p {
-  font-size: 20px;
-  line-height: 130%;
-  border-top: none;
+  /* bio 2 column container */
 
-}
+  .jg-bio {
+    float: left;
+    width: 65.4%;
+  }
 
-body.students a{color:#60BDDB} /*Causing the social icons to be blue*/
+    /* Name */
+
+    .jg-bio h3 {
+      line-height: 28px;
+      font-size: 1.4em;
+      margin: 0;
+    }
+
+    /* Position Title */
+
+    .jg-bio h4 {
+      margin: 0 0 10px;
+      font-size: 1.15em;
+      color: #666;
+      line-height: 1em;
+    }
+
+    .jg-bio p {
+      font-size: 12px;
+      line-height: 1.5em;
+      margin: 0 0 10px;
+      color: #000;
+    }
+
+  /* Figure */
+  .jg-row figure {
+    width: 32.6%;
+    margin: 0;
+    margin-left: 2%;
+    float: right;
+    text-align: center;
+  }
+
+    /* Headshot Image */
+
+    .jg-row figure img {
+      display: block;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+    }
+
+    .jg-row figure img.noborder {
+      border: 0;
+    }
+    
+    /* decortaive flourish */
+
+    .jg-row figure img.flourish {
+      margin: 7px auto 0;
+      border: 0;
+    }
+
+    /* social links container */
+
+    .jg-row figcaption{
+        font-size: 20px; /* sets size of social icons */
+      }
+
+        /* social icons */
+
+        .jg-row figcaption i {
+          padding: 0 7px 0 0;
+        }
+
+        .jg-row figcaption i.last {
+          padding: 0;
+        }
+
+    .auto_height {
+      height: auto !important;   
+    }
+
+/* ==[ work-force-1 ruby curriculum brooklyn styles ]============================================ */
+
+    #work-force-1 {
+        width: 100%;
+        background: black url(../img/work-force-1-header-background.png) repeat-x;
+        margin-top: 0;
+        height: 103px;
+        overflow: hidden;
+    }
+
+    #work-force-1 .header {
+        max-width: 1010px;
+        height: auto;
+    }
+
+    .work-force-1-logo {
+        display: block;
+        float: left;
+    }
+
+    .nyc-logo {
+        display: block;
+        float: right;
+    }
+
+    .wf1 {
+        padding-top: 258px;
+    }
+
+    .home-blog-post.wf1-unit {
+        width: 100%;
+        margin: 0 0 30px 0;
+        float: none;
+        height: auto;
+    }
+
+    .intro-p {
+        font-size: 1.5em;
+        line-height: 1.2em;
+    }
+
+    ul.requirements {
+        list-style: disc;
+        margin-left: 16px;
+    }
+
+    .menu-item a.blue, .menu-item a.blue:hover, .menu-item a.blue:active, .menu-item a.blue:visited {
+        color: #26c4ff !important;
+    }
+
+    span.nav-label {
+        display: block;
+        clear: both;
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+        position: relative;
+        top: -175px;
+    }
+
