@@ -119,8 +119,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edaf76', end
 /***** Classes *****/
 
 
+a.twit { 
+display: inline-block;
+background: url('supermassivecsspriteicons.png') no-repeat;
+background-position: -38px -658px; 
+overflow: hidden;
+width: 32px; 
+height: 33px; 
+}
+
+
+        a.twit:hover{
+        	background-position: 0 -658px;
+        }
+
 		a.face{
-			display:block;
+			display:inline-block;
 		 background: url('supermassivecsspriteicons.png') no-repeat;
 		 background-position:  -38px -73px; 
 		 overflow: hidden;
