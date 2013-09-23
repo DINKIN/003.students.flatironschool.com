@@ -1,0 +1,431 @@
+
+
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+Great+Primer);
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+English+SC);
+
+
+/***** Fixy *****/
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.clarfix:after{
+	content:".";
+	display: block;
+	clear:both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+
+}
+
+img, video, audio, table, form 
+{width: 100%;}
+
+
+/***** Global *****/
+
+body {
+	background:#FBD6B1;
+	background-image: url('../images/backtext.jpg');
+	font-family: 'IM Fell Great Primer', 'Times New Roman';
+	color: rgb(65,56,50);
+	/*  rgb(71,70,68); */
+	/*rgb(249,202,168); back*/
+	/*rgb(238,196,165);*/
+
+}
+
+h2{
+	font-size: 1.2em;
+}
+
+p {
+	font-size: 1.1em;
+	font-weight: normal;
+	line-height: 1em;
+	margin: 0 5px 20px;
+}
+
+
+video {
+
+	width:100%;
+	
+}
+figure img{
+	padding: 3px;
+}
+figcaption {
+	font-weight: bold;
+	font-family: Georgia, Times, serif;
+	line-height: 1.2em;
+	padding: 5px;
+	color: gray;
+	text-align: left;
+}
+
+
+
+li {
+	margin-left: 20px;
+}
+
+footer {
+	clear:both;
+}
+
+
+
+
+/***** IDs *****/
+
+#nav_bar {
+	border-top: 1px dashed #ccc;
+	border-bottom: 1px dashed #ccc;
+	margin:5px 0 5px 0;
+	position: fixed;
+	top:0;
+	width:100%;
+}
+
+		#nav_bar a:link, #nav a:visited {
+			text-decoration: none;
+
+		}
+
+		#nav_bar nav a {
+			display:inline-block;
+			background: url('../images/navbg.jpg');
+			width:19.3%;
+			padding: 22px 0;
+			margin:0;
+			font-size: 1.1em;
+			text-transform: uppercase;
+			color:#272319;
+			text-align: center;
+			
+			border-radius: 15px 15px;
+		}
+
+		#nav_bar a.selected {
+			background: url('../images/navbg2.jpg');
+			/*color: white;*/
+		}
+
+		#nav_bar a:hover {
+			background-image: url('../images/navbg2.jpg');
+			border-radius: 5px 5px;
+			 -webkit-transition:background 1s ease-in;  
+	  		 -moz-transition: all 0.5s linear;  
+	   		 -o-transition:background 1s ease-in;  
+	   	
+			
+			/*color: white;*/
+		}
+
+
+
+
+#heading {
+	padding:100px 0px 10px 0;
+	text-align: center;
+/*gradient*/
+
+background: -moz-linear-gradient(top, rgba(237,175,118,1) 0%, rgba(245,171,102,0.63) 53%, rgba(244,214,186,0.3) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(237,175,118,1)), color-stop(53%,rgba(245,171,102,0.63)), color-stop(100%,rgba(244,214,186,0.3))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(237,175,118,1) 0%,rgba(245,171,102,0.63) 53%,rgba(244,214,186,0.3) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(237,175,118,1) 0%,rgba(245,171,102,0.63) 53%,rgba(244,214,186,0.3) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(237,175,118,1) 0%,rgba(245,171,102,0.63) 53%,rgba(244,214,186,0.3) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(237,175,118,1) 0%,rgba(245,171,102,0.63) 53%,rgba(244,214,186,0.3) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edaf76', endColorstr='#4df4d6ba',GradientType=0 );
+
+}
+
+
+
+		#heading h1 {
+			font-family: 'IM Fell English SC', 'Times New Roman';
+			text-transform:uppercase;
+			font-size: 1.4em;
+		}
+
+		#heading h2 {
+			font-size: 1.1em;
+			text-transform:uppercase;
+
+		}
+
+
+#social {
+
+	position: fixed;
+	top:26px;
+	right:80px;
+	width: 40px;
+	z-index:1;
+
+}
+		a.face{
+			display:block;
+			height: 40px;
+			width: 40px;
+			background: url('../images/social.png');
+			background-position: 0 0;
+			overflow:hidden;
+			text-indent: 100%;
+
+        }
+
+        a.face:hover{
+        	background-position: -40px 0px;
+        }
+
+
+/***** Classes *****/
+
+
+.darker {
+	color: rgb(68, 60, 48);
+	text-shadow: 0 2px 2px rgb(194,	136,90);	
+}
+
+
+
+.bg {
+	background: url('../images/2.jpg');
+	background-position: center top;
+	padding: 10px 10px;
+	
+
+}
+
+
+.bg1 {
+	background: url('../images/5.jpg');
+	background-position: center top;
+	padding: 10px 10px;
+	
+
+}
+
+.bg3 {
+	background: url('../images/3.jpg');
+	background-position: center top;
+	padding: 10px 10px;
+	
+
+}
+
+.bg4 {
+	background: url('../images/4.jpg');
+	background-position: center top;
+	padding: 10px 10px;
+	
+
+}
+
+.wrapper {
+
+	
+	width: 900px;
+	margin: 0 auto;
+}
+
+.shadow {
+	box-shadow: 2px 3px 3px #232E20;
+}
+
+
+.fleft {
+	float:left;
+	margin: 3px 5px;
+	padding: 0 2px;
+}
+
+.fright {
+	float:right;
+	margin: 3px 5px;
+	padding: 0 2px;
+}
+
+.topphoto {
+	width:70%;
+	margin:auto;
+}
+
+.topphoto img{
+	width:100%;
+	border: 1px dashed gray;
+	border-radius: 5px 5px;
+	padding: 15px 12px 15px 12px;
+	margin-bottom: 15px;
+	
+}
+
+
+.clearz{
+	clear:both;
+}
+
+.photo {
+	width:100%;
+	
+}
+
+
+
+
+
+/***** Columnz *****/
+
+
+.col1_left{
+		border: 1px dashed gray;
+	border-radius: 5px 5px;
+	float:left;
+	width: 32.6%;
+	margin: 0 0 20px 0;
+}
+
+.col1_mid{
+		border: 1px dashed gray;
+	border-radius: 5px 5px;
+	float:left;
+	width: 32.6%;
+	margin: 0 1% 20px 1%;
+}
+
+.col1_right{
+		border: 1px dashed gray;
+	border-radius: 5px 5px;
+	float:right;
+	width: 32.6%;
+	margin: 0 0 20px 0;
+}
+
+.col2_left{
+		border: 1px dashed gray;
+	border-radius: 5px 5px;
+	float:left;
+	width: 66.4%;
+	margin: 0 1% 20px 0;
+
+}
+
+.col2_right{
+		border: 1px dashed gray;
+	border-radius: 5px 5px;
+	float:left;
+	width: 66.4%;
+	margin: 0 1% 20px 0;
+
+}
+
+.colsp_left {
+	border: 1px dashed gray;
+	border-radius: 5px 5px;
+	float: left;
+	width: 48.5%;
+	margin: 0 3% 20px 0;
+}
+
+.colsp_right {
+	border: 1px dashed gray;
+	border-radius: 5px 5px;
+	float: right;
+	width: 48.5%;
+	margin: 0 0 20px 0;
+
+}
+
+
+
+.onecol {
+	border: 1px dashed gray;
+	border-radius: 5px 5px;
+	float: left;
+	width: 99%;
+	margin: 0 0 20px 0;
+
+}
+
+
+
+
+/***** table *****/
+
+table {
+	width: 100%;
+	margin: 0 0 20px;
+	border: 1px dashed #ccc;
+	
+}
+
+tr:nth-child(odd) {
+	background: #E4CE9C;
+
+}
+
+th {
+	letter-spacing: 0.05em;
+		
+}
+th , td {
+	padding: 3px;
+
+}
+
+
+
+/***** form *****/
+
+input, textarea {
+	display: block;
+	width: 90%;
+	padding: 5px;
+	margin: 5px 5px;
+	box-shadow: 0 3px 5px #ccc;
+	border: 0.5px, solid, #ccc;
+	border-radius: 9px;
+}
+
+input[type="submit"]{
+	margin-top: 5px;
+	width: 100px;
+	background: #342E23;
+	color:#FCDBB6;
+	border: 0;
+	border-radius: 10px;
+}
+
+input[type="submit"]:hover{
+	background: #625747;
+
+
+
+}
+
+
+.form_right{
+		
+	
+	float:right;
+	width: 32.6%;
+	margin: 0 0 20px 0;
+}
+
+
+/***** iframe *****/
+
+iframe {
+	width:98%;
+	margin: 5px;
+	border: 2px dotted #ccc;
+}
