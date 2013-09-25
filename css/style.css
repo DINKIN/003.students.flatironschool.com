@@ -1,3 +1,5 @@
+@font-face{ font-family:'FontAwesome'; src:url('font/fontawesome-webfont.eot'); }
+
 .clearfix:after {
     content: ".";
     display: block;
@@ -429,12 +431,12 @@ img {
 }
 
 .top-page-title {
-	dispay: block;
+	display: block;
 	text-align: center;
 	border-style: solid;
 	overflow: hidden;
 	border-radius: 25px;
-	height: 200px;
+	height: 250px;
 	background-color: black;
 	margin-left: auto;
 	margin-right: auto;
