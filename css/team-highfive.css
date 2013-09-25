@@ -17,26 +17,32 @@ _______________________*/
 
 /* LAYOUT
 _______________________*/
+.main-wrapper {
+	padding-top: 50px;
+}
 .container {
-	width: 600px;
-	margin-left: auto;
-	margin-left: auto;
+	width: 500px;
+    display: table;
+    margin: 0 auto;
+}
+
+.profile-header, .social {
+	display: table-row;
+}
+
+.profile-name, .profile-image  {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .profile-header .profile-image {
 
-	float: right;
-	width: 200px;
-
-
--webkit-border-image:url(border.png) 30 30 round; /* Safari 5 */
--o-border-image:url(border.png) 30 30 round; /* Opera */
-border-image:url(border.png) 30 30 round;
+	/*float: right;*/
+/*width: 200px;*/
 }
 
 .social {
-	clear: both;
-	width:400px;
-	margin-left: auto;
-	margin-left: auto;
+width: 400px;
+  /*  display: table;*/
+    margin: 0 auto;
 }
