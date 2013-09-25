@@ -418,7 +418,6 @@ img {
 #nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul { display: block }
 
 /* ===[ Title Styles ]===================================================== */
-
 .home .page-title {
     text-align: center;
     border-bottom: none;
