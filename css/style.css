@@ -3180,6 +3180,41 @@ img.footer-image-tp {
         transform: scale(1.0);
     }
 
+    .top-links-logan {
+        position: absolute;
+        top: 110px;
+        right: 235px;
+    }
+
+    .top-links-logan a:first-child {
+        border: none;
+    }
+    .top-links-logan a {
+        border-left: 1px solid #CCC;
+        margin: 5px 0 0 0;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .top-links-logan-left {
+        border-left: none;
+    }
+
+    #dummy-div {
+        display: block;
+        position: relative;
+        top: -110px;
+        visibility: hidden;
+    }
+
+    #dummy-div-footer {
+        display: block;
+        position: relative;
+        top: -500px;
+        visibility: hidden;
+    }
+
+
     /**=== vinney cavallo ===**/
 
 
@@ -3206,4 +3241,3 @@ img.footer-image-tp {
 /**==== end team-nice ====**/
 
 /**=== end student styles ===**/
-
