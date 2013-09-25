@@ -3072,13 +3072,18 @@ object#bigify {
         position: relative;
         top: -175px;
     }
-/*=== t_peon changes ===*/
+/*=== Tiffany Peon - Custom styles for profile page ===*/
 
 
 img.tp-pic {
     border-radius: 125px;
     margin-bottom: 20px;
     box-shadow: 0 0 0 10px #ccc;
+}
+
+img.footer-image-tp {
+    border-radius: 150px;
+    margin: 0 auto;
 }
 
 
