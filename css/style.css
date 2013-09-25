@@ -3072,14 +3072,19 @@ object#bigify {
         position: relative;
         top: -175px;
     }
-/*=== t_peon changes ===*/
+
+/**=== student styles ===**/
+
+/**===== team-nice =====**/
+
+    /*=== t_peon changes ===*/
 
 
-img.tp-pic {
-    border-radius: 125px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 0 10px #ccc;
-}
+    img.tp-pic {
+        border-radius: 125px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 0 10px #ccc;
+    }
 
 
     /* Manuel Neuhauser - Custom styles for profile page */
@@ -3122,7 +3127,7 @@ img.tp-pic {
         background-position: 0px -20px;
         }
 
-/** STUDENT STYLES **/
+    /**=== vinney cavallo ===**/
 
     .vinney-pic {
         border-radius: 125px;
@@ -3143,3 +3148,6 @@ img.tp-pic {
         background-position: center 0;
     }
     
+/**==== end team-nice ====**/
+
+/**=== end student styles ===**/
