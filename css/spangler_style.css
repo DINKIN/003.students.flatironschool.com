@@ -3,12 +3,6 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
     padding: 0;
 }
 
-.top-page-title {
-  background: url(http://thepoliticizer.com/wp-content/uploads/2010/03/california-state-flag_bigger.jpg) no-repeat top center;
-  background-size: 100% 100%;
-  margin-bottom: 100px;
-  text-align: center;
-}
 
 table {
     border-collapse: collapse;
@@ -25,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
     font-family: 'Merriweather', Georgia, serif;
     font-weight: normal;
+    line-height: 12px;
     color: #4c4c4c;
 }
 
@@ -157,7 +152,7 @@ img {
 
 .header-wrapper {
     width: 100%;
-    margin: 0 0 0 0;
+    margin: 0 0 0 0;w
     position: fixed;
     z-index: 99999;
     background: #fff;
@@ -2900,12 +2895,13 @@ input.hs-button.primary.large{
   border-radius: 100px;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
-  width: 140px;
-  height: 140px;
+  width: 170px;
+  height: 150px;
   top: -212px;
   left: 41.07%;
-  border: 2px solid white;
+  border: 9px solid white;
   margin-top: 205px;
+
 }
 
 
@@ -2923,7 +2919,7 @@ input.hs-button.primary.large{
 }
 
 .top-page-title {
-  background: url(../img/j-collins-background.jpg) no-repeat top center;
+  background: url(http://images.nycsubway.org/icon/title_The_Bridge_Builders_Triumph.jpg) no-repeat top center;
   background-size: 100% 100%;
   margin-bottom: 100px;
   text-align: center;
