@@ -15,7 +15,7 @@ Steps:
     - git commit -am "Add profile for Avi Flombaum"
     - git push
 Create a pull request to merge your feature branch, add-profile-aviflombaum to the flatiron-school origin repository
-https://github.com/flatiron-school/002.students.flatironschool.com/pull/new/add-profile-aviflombaum
+https://github.com/flatiron-school/003.students.flatironschool.com/pull/new/add-profile-aviflombaum
 
 - Squashing commits?
 
