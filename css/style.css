@@ -3014,7 +3014,7 @@ input.hs-button.primary.large{
     text-transform: uppercase;
     /*margin-bottom: 40px;*/
     text-align: center;
-    padding-top: 35px;
+    padding: 30px;
     border-top: solid 1px #eee;
     border-bottom: solid 1px #eee;
 }
