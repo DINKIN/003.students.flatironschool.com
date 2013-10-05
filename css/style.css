@@ -1566,7 +1566,8 @@ h3#comments {
 .services h4{
   font-size: 14px;
   line-height: 0;
-  text-decoration: underline
+  text-decoration: underline;
+  margin-top: 22px;
 }
 .services:hover .service-icon {
     background: #fff666;
@@ -2906,13 +2907,14 @@ input.hs-button.primary.large{
   /*background: url(../img/plaza_espana.jpg) no-repeat top center;*/
   margin-bottom: 0;
   padding: 0;
-  height: 275px;
   text-align: bottom;
 }
 
 .page-title {
-  position: relative;
-  vertical-align:bottom;
+    border-bottom: solid 1px #eee;
+    padding: 30px 0;
+    margin-bottom: 40px;
+    position: relative;
 }
 
 .top-page-title {
@@ -3009,12 +3011,12 @@ input.hs-button.primary.large{
 
 .section-title {
     letter-spacing: 5px;
-    font-size: 40px;
+    font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
     /*margin-bottom: 40px;*/
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     border-top: solid 1px #eee;
     border-bottom: solid 1px #eee;
 }
