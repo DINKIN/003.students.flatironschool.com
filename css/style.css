@@ -3097,3 +3097,10 @@ body.students a{color:#60BDDB} /*Causing the social icons to be blue*/
 .smooth-scroller {
     padding-top: 20px;
 }
+
+.h4-faker {
+    font-size: 14px;
+    font-family: 'Merriweather', Georgia, serif;
+    font-weight: normal;
+    color: #4c4c4c;
+}
