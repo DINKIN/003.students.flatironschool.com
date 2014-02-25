@@ -1,3 +1,5 @@
+_This project has been archived and is live on http://003.students.flatironschool.com_
+
 Deploy on Day One Project
 
 Goal: To add yourself to the student section of the FlatironSchool.com and create your profile page.
